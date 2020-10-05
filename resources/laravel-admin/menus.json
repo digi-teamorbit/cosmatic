@@ -1,0 +1,20 @@
+{
+   "menus":[
+      {
+         "section":"Modules",
+         "items":[
+            {
+               "title":"Offer",
+               "icon":"fab fa-buysellads",
+               "url":"\/admin\/offer"
+            },
+            {
+               "title":"Innerbanner",
+               "icon":"fas fa-pencil-alt",
+               "url":"\/admin\/innerbanner"
+            },
+          
+         ]
+      }
+   ]
+}

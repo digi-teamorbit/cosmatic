@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>Checkout</title>
+	<link href="css/all.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <header>
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="language-tab">
+              <p>Language: <span>English</span><i class="fa fa-caret-down"></i></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="cart-tab">
+              <p>Shopping Cart <i class="fa fa-shopping-cart"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+       <div class="container">
+        <div class="row flex-row">
+          <div class="col-md-4">
+            <div class="main_logo">
+              <img src="./images/main-logo.png" class="img-responsive" alt="image" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="header-search">
+              <input type="text" class="form-froup"  name="search" placeholder="Search Here" />
+              <i class="fa fa-search"></i>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="view-product">
+              <button>view products</button>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+    <div class="header-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar ">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+              
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="category.html">Categories</a></li>
+                    <li><a href="#">Face</a></li>
+                    <li><a href="#">lips</a></li>
+                    <li><a href="#">eyes</a></li>
+                    <li><a href="contact.html">cONTACT US</a></li>
+
+                  </ul>
+              
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+	<!-- BEGIN: BANNER SECTION -->
+	<section class="banner">
+		<img  class="img-responsive" src="images/inner-banner.jpg" alt="About Banner">
+		<div class="banner-overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<h2>Checkout</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- END: BANNER SECTION -->
+
+	<section class="checkout-main">
+    <div class="container">
+
+      <div class="cart_content_area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-12 col-xs-12">
+              <div class="chk-left">
+                <div class="col-md-12">
+                  <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapseOne">Personal Information</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse in" id="collapseOne">
+                        <div class="panel-body">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <ul class="order-guest">
+                                <li>Order as a guest</li>
+                                <li>|</li>
+                                <li>Sign in</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-md-8 col-md-offset-1">
+                            <div class="form-fields digi-form">
+                              <div class="row">
+                                <div class="col-md-3 col-sm-3">
+                                  <div align="right" class="form-group">
+                                    <label for="tags">Social title</label>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                  <div class="checkout-form-list">
+                                    <div class="form-group radio-green">
+                                      <input id="radio1" name="group101" type="radio"> <label for="radio1">Mr.</label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-md-3 col-sm-3 col-xs-6">
+                                  <div class="checkout-form-list">
+                                    <div class="form-group radio-green">
+                                      <input id="radio2" name="group101" type="radio"> <label for="radio2">Mrs.</label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="row">
+                                  <div class="col-md-3 col-sm-3">
+                                    <div align="right" class="form-group">
+                                      <label for="tags">First Name</label>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9">
+                                    <div class="form-group">
+                                      <input class="form-control" id="tags" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-3 col-sm-3">
+                                    <div align="right" class="form-group">
+                                      <label for="tags">Last Name</label>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9">
+                                    <div class="form-group">
+                                      <input class="form-control" id="tags" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-3 col-sm-3">
+                                    <div align="right" class="form-group">
+                                      <label for="tags">Email</label>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-9 col-sm-9">
+                                    <div class="form-group">
+                                      <input class="form-control" id="tags" type="text">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12">
+                              <p class="creat-account">Create an account (optional)<br>
+                              And save time on your next order!</p>
+                            </div>
+                          </div>
+                          <div class="col-md-8 col-md-offset-1 col-sm-10">
+                            <div class="row">
+                              <div class="col-md-3 col-sm-3">
+                                <div align="right" class="form-group">
+                                  <label for="tags">Password</label>
+                                </div>
+                              </div>
+                              <div class="col-md-9 col-sm-9">
+                                <div class="form-group">
+                                  <input class="form-control" id="tags" type="text">
+                                </div><a class="btn show" href="#">Show</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-2 col-sm-2">
+                            <p class="opt">Optional</p>
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="col-md-8 col-md-offset-1 col-sm-10">
+                            <div class="row">
+                              <div class="col-md-3 col-sm-3">
+                                <div align="right" class="form-group">
+                                  <label for="tags">Birthdate</label>
+                                </div>
+                              </div>
+                              <div class="col-md-9 col-sm-9">
+                                <div class="date form_date">
+                                  <input class="form-control hasDatepicker" id="datepicker">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-2 col-sm-2">
+                            <p class="opt">Optional</p>
+                          </div>
+                          <div class="clearfix"></div><br>
+                          <div class="row">
+                            <div class="col-md-9 col-md-offset-3 s-left">
+                              <div class="checkbox">
+                                <input id="checkbox1" type="checkbox"> <label for="checkbox1">Receive offers from our partners</label>
+                              </div>
+                              <div class="checkbox">
+                                <input id="checkbox2" type="checkbox"> <label for="checkbox2">Sign up for our newsletter</label>
+                                <p>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 col-md-offset-3 s-left"></div>
+                          </div><br>
+                          <br>
+                          <div class="col-md-12">
+                            <a class="btn showed" href="#">Continue</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapseTwo">2.  Address</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapseTwo">
+                        <div class="panel-body">
+                          <div class="check-form">
+                            <div class="row">
+                              <div class="inline">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="tags">First Name</label> <input class="form-control" id="tags" type="text">
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="tags">Last Name</label> <input class="form-control" id="tags" type="text">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="inline">
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <label for="tags">Address</label> <input class="form-control" id="tags" type="text">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="inline">
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                    <label for="tags">Town/City</label> <input class="form-control" id="tags" type="text">
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                    <label for="tags">District</label> <input class="form-control" id="tags" type="text">
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                    <label for="tags">Zip Code</label> <input class="form-control" id="tags" type="text">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapsethree">3.  Shipping method</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapsethree">
+                        <div class="panel-body check-form">
+                          <div class="row">
+                            <div class="inline">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="tags">First Name</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="tags">Last Name</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="inline">
+                              <div class="col-md-12">
+                                <div class="form-group">
+                                  <label for="tags">Address</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="inline">
+                              <div class="col-md-4">
+                                <div class="form-group">
+                                  <label for="tags">Town/City</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="form-group">
+                                  <label for="tags">District</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                              <div class="col-md-4">
+                                <div class="form-group">
+                                  <label for="tags">Zip Code</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapsefour">4.  Payment</a></h4>
+                      </div>
+                      <div class="panel-collapse collapse" id="collapsefour">
+                        <div class="panel-body check-form">
+                          <div class="row">
+                            <div class="inline">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="tags">Cart Type</label> <select class="form-control" id="CreditCardType" name="CreditCardType">
+                                    <option value="5">
+                                      Visa
+                                    </option>
+                                    <option value="6">
+                                      MasterCard
+                                    </option>
+                                    <option value="7">
+                                      American Express
+                                    </option>
+                                    <option value="8">
+                                      Discover
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="tags">Credit Card Number:</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="inline">
+                              <div class="col-md-12">
+                                <div class="form-group">
+                                  <label for="tags">Card CVV:</label> <input class="form-control" id="tags" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="inline">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="tags">Expiration Date</label> <select class="form-control" name="">
+                                    <option value="">
+                                      Month
+                                    </option>
+                                    <option value="01">
+                                      01
+                                    </option>
+                                    <option value="02">
+                                      02
+                                    </option>
+                                    <option value="03">
+                                      03
+                                    </option>
+                                    <option value="04">
+                                      04
+                                    </option>
+                                    <option value="05">
+                                      05
+                                    </option>
+                                    <option value="06">
+                                      06
+                                    </option>
+                                    <option value="07">
+                                      07
+                                    </option>
+                                    <option value="08">
+                                      08
+                                    </option>
+                                    <option value="09">
+                                      09
+                                    </option>
+                                    <option value="10">
+                                      10
+                                    </option>
+                                    <option value="11">
+                                      11
+                                    </option>
+                                    <option value="12">
+                                      12
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <label for="tags">Expiration Year</label> <select class="form-control" name="">
+                                    <option value="">
+                                      Year
+                                    </option>
+                                    <option value="2015">
+                                      2015
+                                    </option>
+                                    <option value="2016">
+                                      2016
+                                    </option>
+                                    <option value="2017">
+                                      2017
+                                    </option>
+                                    <option value="2018">
+                                      2018
+                                    </option>
+                                    <option value="2019">
+                                      2019
+                                    </option>
+                                    <option value="2020">
+                                      2020
+                                    </option>
+                                    <option value="2021">
+                                      2021
+                                    </option>
+                                    <option value="2022">
+                                      2022
+                                    </option>
+                                    <option value="2023">
+                                      2023
+                                    </option>
+                                    <option value="2024">
+                                      2024
+                                    </option>
+                                    <option value="2025">
+                                      2025
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+              <div class="rcart">
+                <div class="panel panel-default">
+                  <div class="panel-body">
+                    <div class="citem">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <p>1 item</p>
+                          </div>
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <div class="pull-right">
+                              <p class="right-text">$230.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="citem">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <p>Shipping</p>
+                          </div>
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <div class="pull-right">
+                              <p class="right-text">$7.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr>
+                    <div class="citem">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <p>Total ( Tax excl).</p>
+                          </div>
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <div class="pull-right">
+                              <p class="right-text">$7.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="citem">
+                      <div class="col-md-12">
+                        <div class="row">
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <p>Taxes</p>
+                          </div>
+                          <div class="col-md-6 col-xs-6 col-sm-6">
+                            <div class="pull-right">
+                              <p class="right-text">$7.00</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="cart-bottom">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                  <a href="#"><i aria-hidden="true" class="fa fa-shield"></i></a>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-10">
+                  <ul>
+                    <li>
+                      <a href="#">
+                      <p>Security policy (edit with module Customer reassurance)</p></a>
+                    </li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="cart-bottom">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                  <a href="#"><i aria-hidden="true" class="fa fa-truck"></i></a>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-10">
+                  <ul>
+                    <li>
+                      <a href="#">
+                      <p>Delivery policy (edit with module Customer reassurance)</p></a>
+                    </li>
+                    <li></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+              <div class="clearfix"></div>
+              <div class="cart-bottom">
+                <div class="col-md-2 col-sm-2 col-xs-2">
+                  <a href="#"><i aria-hidden="true" class="fa fa-exchange"></i></a>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-10">
+                  <ul>
+                    <li>
+                      <a href="#">
+                      <p>Return policy (edit with module Customer reassurance)</p></a>
+                    </li>
+                    <li></li>
+                  </ul>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+              <!-- <a href="#" class="submit-btn">Complete Order</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- CHECKOUT END  -->  
+
+<!-- Begin: FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-4">
+        <div class="ftr-col1">
+          <h4>INFORMATION</h4>
+          <ul>
+            <li><a href="">Lorem Ipsum</a></li>
+            <li><a href="">Dolore Sit</a></li>
+            <li><a href="">Consectetur</a></li>
+            <li><a href="">Adipisicing</a></li>
+            <li><a href="">Eiusmode nis</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Lorem Ipsum</a></li>
+            <li><a href="">Dolore Sit</a></li>
+            <li><a href="">Consectetur</a></li>
+            <li><a href="">Adipisicing</a></li>
+            <li><a href="">Eiusmode nis</a></li>
+          </ul>
+        </div>
+      </div>
+      
+       <div class="col-md-4">
+        <div class="ftr-col1">
+          <h4>Usefull Links</h4>
+          <ul>
+            <li><a href="">Lorem Ipsum</a></li>
+            <li><a href="">Dolore Sit</a></li>
+            <li><a href="">Consectetur</a></li>
+            <li><a href="">Adipisicing</a></li>
+            <li><a href="">Eiusmode nis</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Lorem Ipsum</a></li>
+            <li><a href="">Dolore Sit</a></li>
+            <li><a href="">Consectetur</a></li>
+            <li><a href="">Adipisicing</a></li>
+            <li><a href="">Eiusmode nis</a></li>
+          </ul>
+        </div>
+      </div>
+
+       <div class="col-md-4">
+        <div class="ftr-col2">
+          <h4>Follow us</h4>
+           
+
+          <ul class="ftr-soc">
+            <li></li>
+            <li><a href=""><img src="./images/fb_img.png" class="img-responsive" alt="images" /></a></li>
+            <li><a href=""><img src="./images/twitter_img.png" class="img-responsive" alt="images" /></a></li>
+            <li><a href=""><img src="./images/google_img.png" class="img-responsive" alt="images" /></a></li>
+          </ul> 
+
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<div class="copyrit">
+ <div class="container">
+<div class="row">
+  <div class="col-md-12"><p>Copyrights © 2020 demolink.com - All Rights Reserved</p></div>
+</div>
+</div>
+</div>
+<!-- END Footer --> 
+
+	<script src="js/all.js"></script>
+	<script src="js/custom.js"></script> 
+</body>
+</html>
